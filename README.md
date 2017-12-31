@@ -17,11 +17,11 @@
 6) If there are no errors or warnings, you should have a .gitignore file inside your project folder;
 
 
-## Executing
+## Execution
 
-When executing this file, you should receive several messages while the script add contents to your .gitignore file.
+When executing this file, you should receive several messages while the script add content to your .gitignore file.
 
-After adding the default value, you'll be prompt with the following message: **Would you like to add 'unitypackage' to your .gitignore file? [1] Yes - [0] No.**. Select your option and press enter. This will guarantee that exported unitypackages will not be ignored.
+After adding all the default values, you'll be prompt with the following message: **Would you like to add 'unitypackage' to your .gitignore file? [1] Yes - [0] No.**. Select your option and press enter. This will guarantee that exported unitypackages will not be ignored.
 
 
 ## Contributing
