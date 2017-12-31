@@ -7,9 +7,9 @@ GitignoreAutomationUnity3D is a shell script developed to quickly create a .giti
 
 1) Clone this repository into your machine;
 2) Open your .bashrc file. It's usually under ~/.bashrc;
-3) Create an alias for the create-u3d-gitignore file:
-    1) The command structure is: ```alias + command name + = +  path to file```;
-    2) The final result should look like this: ```alias create_unity3d_gitignorefile=FILE/PATH/create-u3d-gitignore```;
+3) Create an alias for the create-u3d-gitignore.sh file:
+    1) The command structure is: ```alias + command_name="cd PATH/TO/REPOSITORY/FOLDER + && + ./create-u3d-gitignore.sh"```;
+    2) The final result should look similar to this: ```alias create_unity3d_gitignorefile="cd ~/Downloads/GitignoreAutomationUnity3D && ./create-u3d-gitignore.sh"```. Considering you cloned the repository directly into your 'Downloads' folder;
     3) Save and close your ~/.bashrc;
     4) On terminal, execute: ```source ~/.bashrc```;
 4) Navigate to your Unity3D project folder using terminal;
