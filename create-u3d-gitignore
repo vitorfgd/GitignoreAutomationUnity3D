@@ -3,40 +3,65 @@
 echo "Creating your gitignore file. Please, be patient... ";
 
 echo "[Ll]ibrary/" >> .gitignore
+echo "Adding [Ll]ibrary/ to your .gitignore file... "
 echo "[Tt]emp/" >> .gitignore
+echo "Adding [Tt]emp/ to your .gitignore file... "
 echo "[Oo]bj/" >> .gitignore
+echo "Adding [Oo]bj/ to your .gitignore file... "
 echo "[Bb]uild/" >> .gitignore
+echo "Adding [Bb]uild/ to your .gitignore file... "
 echo "[Bb]uilds/" >> .gitignore
+echo "Adding [Bb]uilds/ to your .gitignore file... "
 echo "Assets/AssetStoreTools*" >> .gitignore
-
+echo "Adding Assets/AssetStoreTools* to your .gitignore file... "
+echo >> .gitignore
 echo "/.vs/" >> .gitignore
-
+echo "Adding /.vs/ to your .gitignore file... "
+echo >> .gitignore
 echo "ExportedObj/" >> .gitignore
+echo "Adding ExportedObj/ to your .gitignore file... "
 echo ".consulo/" >> .gitignore
+echo "Adding .consulo/ to your .gitignore file... "
 echo "*.csproj" >> .gitignore
+echo "Adding *.csproj to your .gitignore file... "
 echo "*.unityproj" >> .gitignore
+echo "Adding *.unityproj to your .gitignore file... "
 echo "*.sln" >> .gitignore
+echo "Adding *.sln to your .gitignore file... "
 echo "*.suo" >> .gitignore
+echo "Adding *.suo to your .gitignore file... "
 echo "*.tmp" >> .gitignore
+echo "Adding *.tmp to your .gitignore file... "
 echo "*.user" >> .gitignore
+echo "Adding *.user to your .gitignore file... "
 echo "*.userprefs" >> .gitignore
+echo "Adding *.userprefs to your .gitignore file... "
 echo "*.booproj" >> .gitignore
+echo "Adding *.booproj to your .gitignore file... "
 echo "*.svd" >> .gitignore
+echo "Adding *.svd to your .gitignore file... "
 echo "*.pdb" >> .gitignore
-
+echo "Adding *.pdb to your .gitignore file... "
+echo >> .gitignore
 echo "*.pidb.meta" >> .gitignore
+echo "Adding *.pidb.meta to your .gitignore file... "
 echo "*.pdb.meta" >> .gitignore
-
+echo "Adding *.pdb.meta to your .gitignore file... "
+echo >> .gitignore
 echo "sysinfo.txt" >> .gitignore
-
+echo "Adding sysinfo.txt to your .gitignore file... "
+echo >> .gitignore
 echo "*.apk" >> .gitignore
+echo "Adding *.apk to your .gitignore file... "
 
-
-echo "Would you like to ignore unitypackages? [1] ignore, [0] allow, followed by [ENTER]:"
+echo "Would you like to add 'unitypackage' to your .gitignore file? [1] Yes - [0] No."
 read ign
 
 if (( "$ign" == "0" )); then
-  echo "Unitypackages will not be ignored."
+  echo "'unitypackage' will NOT be ignored by git add && git commit"
 else
   echo "*.unitypackage" >> .gitignore
+  echo "Adding *.unitypackage to your .gitignore file... "
 fi
+
+echo "Your .gitignore file is ready... "
