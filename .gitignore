@@ -30,6 +30,6 @@ ExportedObj/
 # Ignoring crash reports.
 sysinfo.txt
 
-# Ignoring APK files.
+# Ignoring build files.
 *.apk
 *.unitypackage

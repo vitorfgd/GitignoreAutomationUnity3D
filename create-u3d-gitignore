@@ -66,7 +66,7 @@ echo "Adding sysinfo.txt to your .gitignore file... "
 
 echo >> .gitignore
 
-echo "# Ignoring APK files." >> .gitignore
+echo "# Ignoring build files." >> .gitignore
 echo "*.apk" >> .gitignore
 echo "Adding *.apk to your .gitignore file... "
 
