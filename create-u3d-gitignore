@@ -1,0 +1,42 @@
+#!/bin/bash
+
+echo "Creating your gitignore file. Please, be patient... ";
+
+echo "[Ll]ibrary/" >> .gitignore
+echo "[Tt]emp/" >> .gitignore
+echo "[Oo]bj/" >> .gitignore
+echo "[Bb]uild/" >> .gitignore
+echo "[Bb]uilds/" >> .gitignore
+echo "Assets/AssetStoreTools*" >> .gitignore
+
+echo "/.vs/" >> .gitignore
+
+echo "ExportedObj/" >> .gitignore
+echo ".consulo/" >> .gitignore
+echo "*.csproj" >> .gitignore
+echo "*.unityproj" >> .gitignore
+echo "*.sln" >> .gitignore
+echo "*.suo" >> .gitignore
+echo "*.tmp" >> .gitignore
+echo "*.user" >> .gitignore
+echo "*.userprefs" >> .gitignore
+echo "*.booproj" >> .gitignore
+echo "*.svd" >> .gitignore
+echo "*.pdb" >> .gitignore
+
+echo "*.pidb.meta" >> .gitignore
+echo "*.pdb.meta" >> .gitignore
+
+echo "sysinfo.txt" >> .gitignore
+
+echo "*.apk" >> .gitignore
+
+
+echo "Would you like to ignore unitypackages? [1] ignore, [0] allow, followed by [ENTER]:"
+read ign
+
+if (( "$ign" == "0" )); then
+  echo "Unitypackages will not be ignored."
+else
+  echo "*.unitypackage" >> .gitignore
+fi
