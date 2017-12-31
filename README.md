@@ -17,6 +17,13 @@
 6) If there are no errors or warnings, you should have a .gitignore file inside your project folder;
 
 
+## Executing
+
+When executing this file, you should receive several messages while the script add contents to your .gitignore file.
+
+After adding the default value, you'll be prompt with the following message: **Would you like to add 'unitypackage' to your .gitignore file? [1] Yes - [0] No.**. Select your option and press enter. This will guarantee that exported unitypackages will not be ignored.
+
+
 ## Contributing
 
 1. Fork the repository on Github;
