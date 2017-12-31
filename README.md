@@ -1,6 +1,6 @@
 # GitignoreAutomationUnity3D
 
-*create-u3d-gitignore.sh* is a bash script developed to quickly create a .gitignore file inside your Unity 3D project. The script was developed to be integrated with .bashrc.
+*create-u3d-gitignore.sh* is a bash script developed to quickly create a .gitignore file inside your Unity3D project. The script was developed to be integrated with .bashrc.
 
 
 ## How to integrate with .bashrc?
@@ -12,7 +12,7 @@
     2) The final result should look similar to this: ```alias create_unity3d_gitignorefile="cd ~/Downloads/GitignoreAutomationUnity3D && ./create-u3d-gitignore.sh"```. Considering you cloned the repository directly into your 'Downloads' folder;
     3) Save and close your ~/.bashrc;
     4) Execute the following command on your terminal: ```source ~/.bashrc```;
-4) Navigate to your Unity 3D project folder using terminal;
+4) Navigate to your Unity3D project folder using terminal;
 5) Execute the command you created previously inside the project;
 6) If there are no errors or warnings, you should have a .gitignore file inside your project folder;
 
